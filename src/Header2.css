@@ -1,0 +1,38 @@
+.headerr {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #222f3c;
+    border-bottom: 0.07px solid rgb(76, 76, 76);
+  }
+  
+  .headerr-left h1 {
+    color: #fff;
+  }
+  
+  .headerr-right {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+  
+  .headerr-right .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  .headerr-admin{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .headerr-admin span{
+    font-size: small;
+  }
+  .headerr-admin a{
+    font-size: x-small;
+    color: rgb(73, 73, 73);
+  }

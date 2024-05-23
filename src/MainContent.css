@@ -1,0 +1,80 @@
+.main-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .stats-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stats-cards .card {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #e43f5a;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .stats-cards .card:last-child {
+    margin-right: 0;
+  }
+  
+  .stats-cards .card h3 {
+    margin: 0 0 10px;
+    color: #fff;
+  }
+  
+  .chart-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .chart-section .email-sent {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .circle-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #1f4068;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leads-section {
+    margin-top: 20px;
+  }
+  
+  .leads-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leads-section table th,
+  .leads-section table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .leads-section table th {
+    background-color:#1f2d3b ;
+  }
+  
+  .leads-section table tr:nth-child(even) {
+    background-color: rgb(27, 40, 54);
+  }
+  

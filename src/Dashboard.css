@@ -1,0 +1,180 @@
+/* src/styles/Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #233241; 
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .stats-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #1f2d3b ;  /* Darker card background */
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    border: 0.07px solid rgb(69, 69, 69);
+  }
+  
+  .card h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff; /* gray text for titles */
+  }
+  
+  .card p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #7d7d9e; /* Light gray text for descriptions */
+  }
+  
+  .chart-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .chart-container {
+    background-color:rgba(31, 45, 59, 1); /* Darker background for charts */
+    padding: 20px;
+    border-radius: 8px;
+    flex: 2.1;
+    border: 0.07px solid rgb(69, 69, 69);
+  }
+  
+  .email-sent {
+    background-color:rgba(31, 45, 59, 1); /* Darker background for email sent section */
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 0.07px solid rgb(69, 69, 69);
+  }
+  
+  .circle-chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #37474f; /* Circle background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; /* White text in circle */
+    font-size: 16px;
+  }
+  
+  .leads-section {
+    background-color: #1f2d3b ;/* Darker background for leads section */
+    padding: 20px;
+    border-radius: 8px;
+    border: 0.07px solid rgb(78, 78, 78);
+  }
+  
+  .leads-section h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #ffffff; /* White text for titles */
+  }
+  
+  .leads-section table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .leads-section th,
+  .leads-section td {
+    padding: 10px;
+    border-bottom: 1px solid #2e2e4d; /* Slightly darker gray for borders */
+    text-align: left;
+    color: rgb(168, 162, 162);
+    font-size: small;
+  }
+  
+  .leads-section th {
+    background-color: #283745 ;  /* Darker header background */
+    color: #ffffff; /* White text for header */
+  }
+  
+  .leads-section tbody tr:hover {
+    background-color: #283745 ; /* Darker row background on hover */
+  }
+  
+  .status {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    color: #ffffff; /* White text for status */
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .status.sold a{
+    padding: 6px 18px;
+    background-color: rgba(76, 175, 80, 0.3);
+    color: rgba(76, 175, 80, 1); /* Same color as background with 100% opacity */
+
+border-radius: 4px;  }
+  
+  .status.new a{
+    padding: 6px 18px;
+    background-color: rgba(79, 79, 83, 0.3);
+    color: rgb(213, 218, 221); /* Same color as background with 100% opacity */
+  
+  border-radius: 4px;}
+  
+  .status.in-progress a{
+    padding: 6px 18px;
+    background-color:rgba(47, 117, 224, 0.3);
+    color:  rgb(46, 106, 218); /* Same color as background with 100% opacity */
+  
+  border-radius: 4px;}
+  
+  .status.not-interested a{
+    padding: 6px 18px;
+    background-color: rgba(241, 196, 15, 0.3);
+    color: rgba(241, 196, 15, 1); /* Same color as background with 100% opacity */
+    border-radius: 4px;
+  }
+  
+  .positive{
+    color: rgb(3, 171, 3)
+  }
+
+  .negative{
+    color: red;
+  }
+
+  .Email-caption{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Email-caption a{
+    color: white;
+    font-size: larger;
+  }
+
+  .Email-caption .perf{
+    color: #c5c5c5;
+    font-size:smaller;
+  }
+

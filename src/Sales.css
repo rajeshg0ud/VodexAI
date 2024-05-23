@@ -1,0 +1,140 @@
+/* Sales.css */
+
+.sales-agent-page {
+  text-align: center;
+  color: #333;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.header .logo {
+  font-size: 2.5em;
+  font-weight: bold;
+  background: linear-gradient(90deg, #8a2be2, #4056f5, #488ef0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.content h1 span {
+  transform: translateY(-50%);
+  background: linear-gradient(90deg, #ff5e00, #f16135, #ff8560);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content p {
+  font-size: 1.2em;
+  margin: 20px 0;
+  color: black;
+  font-weight: 500;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.cta-buttons button {
+  padding: 10px 30px;
+  margin: 10px;
+  font-size: 0.8em;
+  color: #fff;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-buttons button:hover {
+  background-color: rgba(255, 94, 0, 0.8);
+}
+
+.voicebot-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+.voicebot-section img {
+  max-width: 55%;
+  height: auto;
+}
+
+.voicebot-section .img-container {
+  position: relative;
+}
+
+.voicebot-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.voicebot-section form input {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1em;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.voicebot-section form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.voicebot-section form button:hover {
+  background-color: rgba(255, 94, 0, 0.8);
+}
+
+.voicebot-section h2 {
+  font-size: 6em;
+  color: #ff5722;
+  position: absolute;
+  z-index: -1;
+}
+
+.voicebot-section h2:first-child {
+  left: 25%;
+  top: 30%;  
+  transform: translateY(-50%);
+  background: linear-gradient(90deg, #ff5e00, #f95929, #fb6c41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.voicebot-section h2:last-child {
+  right: 22%;
+  top: 30%;
+  transform: translateY(-50%);
+  background: linear-gradient(90deg, #f67b35, #ff7044,  #ff8560);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
