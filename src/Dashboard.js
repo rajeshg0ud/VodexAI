@@ -54,19 +54,19 @@ const Dashboard = () => {
     <div className="dashboard-container">
       <div className="stats-cards">
         <div className="card">
-          <h3>63 New Leads</h3>
+          <h3>63 <a>New Leads</a></h3>
           <p > <a className='positive'>+2.6%</a> this month</p>
         </div>
         <div className="card">
-          <h3>25 Email</h3>
+          <h3>25 <a>Email</a></h3>
           <p > <a className='positive'>+5.5%</a> this month</p>
         </div>
         <div className="card">
-          <h3>49 Proposals</h3>
+          <h3>49 <a>Proposals</a></h3>
           <p ><a className='negative'>-0.7%</a> this month</p>
         </div>
         <div className="card">
-          <h3>12 Appointment</h3>
+          <h3>12 <a>Appointment</a></h3> 
           <p > <a className='positive'>+2.6%</a> this month</p>
         </div>
       </div>

@@ -36,6 +36,11 @@
     font-size: 14px;
     color: #7d7d9e; /* Light gray text for descriptions */
   }
+
+  .card h3 a{
+    font-size: medium;
+    color: #7d7d9e;
+  }
   
   .chart-section {
     display: flex;
