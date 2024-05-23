@@ -5,6 +5,14 @@
     padding: 0px 5px;
 }
 
+.top-bar h2{
+        font-size: 1.5rem;
+        font-weight:bolder;
+        background: linear-gradient(90deg, #8a2be2, #4056f5, #488ef0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
 .nav-container {
     min-width: 100%;
 }
